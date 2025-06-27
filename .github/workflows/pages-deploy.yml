@@ -1,10 +1,9 @@
-# File: .github/workflows/pages-deploy.yml
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main # Or replace with your default branch
+      - main # change if your default branch is different
 
 permissions:
   contents: read
@@ -22,19 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+          ruby-version: "3.2"
 
       - name: Install dependencies
-        run: |
-          bundle install
+        run: bundle install
 
-      - name: Build site
+      - name: Build the site with Jekyll
         run: bundle exec jekyll build
 
       - name: Upload artifact
