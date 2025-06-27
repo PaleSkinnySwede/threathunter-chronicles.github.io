@@ -16,10 +16,10 @@ timezone:
 
 title: ThreatHunter Chronicles
 
-tagline: Field notes from a Cybersecurity Analyst
+tagline: 📡 Signal parsed.<br>🧠 Noise ignored.
 
 description: >- # used by seo meta and the atom feed
-  Cybersecurity and Threat Hunting Nerd. Microsoft MVP. Sharing knowledge and ideas when it comes to data parsing and investigation. Logs don't lie.
+  Cybersecurity and Threat Hunting Nerd. Microsoft MVP. Sharing knowledge and ideas when it comes to data parsing and investigation. These are my field notes. Logs don't lie.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: David Lilja
+  name: The Logwatcher
   email: logwatcher@threathunter-chronicles.com
   links:
     # The first element serves as the copyright owner's link
@@ -98,7 +98,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/ThreatHunter-Chronicles-Logo.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
