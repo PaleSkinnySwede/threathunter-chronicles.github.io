@@ -18,3 +18,21 @@ To serve the site locally with Docker:
 
 ```bash
 docker-compose up
+```
+
+Or using VS Code Dev Containers:
+
+```bash
+# Inside the Dev Container
+bundle exec jekyll serve --livereload
+```
+
+🖥️ Tech Stack
+
+- Jekyll 4.x
+- Chirpy Theme
+- GitHub Pages
+- Markdown + Liquid
+- DevContainer with zsh + OMZ
+
+Built with ❤️ by [@paleskinnyswede](https://github.com/paleskinnyswede) – Microsoft MVP and analyst at dawn
