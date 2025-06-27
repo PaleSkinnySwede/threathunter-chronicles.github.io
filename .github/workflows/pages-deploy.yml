@@ -26,17 +26,17 @@ jobs:
         with:
           ruby-version: "3.2"
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
         run: bundle install
 
-      - name: Build the site
+      - name: Build site with Jekyll
         run: bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
