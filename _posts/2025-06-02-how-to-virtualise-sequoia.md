@@ -2,7 +2,7 @@
 title: "SideQuest #01: How To Virtualise Sequoia"
 date: 2025-06-02
 description: Converting Install macOS Sequoia.app to an ISO file
-categories: [SideQuests]
+categories: [Side Quests]
 tags: [macOS Sequoia, Virtualisation, Tips and Tricks, Operating Systems]
 permalink: /blog/sidequest/2025-06-02-how-to-virtualise-sequoia.html
 ---
@@ -11,11 +11,11 @@ _Converting_ `_Install macOS Sequoia.app_` _to an ISO file_
 
 ## Introduction
 
-_Some adventures begin with a stray command, a corrupted ISO, or an innocent ‘what if?’ at 2AM. SideQuests is where we document the glorious tangents: the odd tools, offbeat projects, and unsolicited technical revelations that make life worth scripting. No XP guaranteed, but an adventure more enlightening than the main plot. Loot optional._
+_Some adventures begin with a stray command, a corrupted ISO, or an innocent ‘what if?’ at 2AM. Side Quests is where we document the glorious tangents: the odd tools, offbeat projects, and unsolicited technical revelations that make life worth scripting. No XP guaranteed, but an adventure more enlightening than the main plot. Loot optional._
 
-# Let the SideQuest Begin
+# Let the Side Quest Begin
 
-In this first episode in the _SideQuest_ category, I’m diving into how I managed to install macOS 15 Sequoia in VMware Fusion 13 on my six year old Intel MacBook Pro.
+In this first episode in the _Side Quest_ category, I’m diving into how I managed to install macOS 15 Sequoia in VMware Fusion 13 on my six year old Intel MacBook Pro.
 
 ![The Side Quest](/assets/img/blog/2025-06-02-sidequest-01/ThreatHunter%20Chronicles%20SideQuest%2001.png)
 
@@ -25,7 +25,7 @@ Life is full of side quests. Make sure to do them all.
 
 You’re going to need the `sudo` password for the Mac and you’re going to need almost 60GB of free space before you begin.
 
-## SideQuest Attributes
+## Side Quest Attributes
 
 ```
 +------------------+---------+-----------------------------------------+  
@@ -48,7 +48,7 @@ You’re going to need the `sudo` password for the Mac and you’re going to n
 
 Open the App Store app and search for the OS version you want to download. Click “Get” and then “Download” and it should start downloading. Now, depending on your Internet speed — this is a good time to drink more coffee ☕️. This is a 17GB download.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*kiU6cr7wMQWE-Q21Qt2Zyw.png)
+![](/assets/img/blog/2025-06-02-sidequest-01/ThreatHunter%20Chronicles%20Download%20macOS%20Sequoia.png)
 
 App Store where you can download macOS Sequoia
 
@@ -57,6 +57,7 @@ App Store where you can download macOS Sequoia
 Now it’s time to create the ISO file from the downloaded file.  
 When downloaded the file will end up as an application called `Install macOS Sequoia` in your`/Applications` folder.
 
+{: .prompt-info }
 > All the commands below are also available in my GitHub repository here:  
 > [https://github.com/PaleSkinnySwede/ThreatHunter-Chronicles/tree/main/SideQuests/01%20-%20How%20To%20Virtualise%20Sequoia](https://github.com/PaleSkinnySwede/ThreatHunter-Chronicles/tree/main/SideQuests/01%20-%20How%20To%20Virtualise%20Sequoia)
 
@@ -103,4 +104,4 @@ If you already have Sequoia, or don’t want to install it, on your Mac you can 
 3. The VM boots into Recovery mode.
 4. Finder crashes mid-process. You question reality.
 
-After you’ve finished creating the mighty `Sequoia.iso` ready to be used when needed, you’re strolling along a path through the woods. You see a wizard-looking tall woman approaching you. She stops in front of you and whispers; _“You will find the tools in the past. Make sure to get them.”_ She then disappears like smoke that dissolves in to thin air. You’re thinking to yourself; _“Is this another SideQuest?”._
+After you’ve finished creating the mighty `Sequoia.iso` ready to be used when needed, you’re strolling along a path through the woods. You see a wizard-looking tall woman approaching you. She stops in front of you and whispers; _“You will find the tools in the past. Make sure to get them.”_ She then disappears like smoke that dissolves in to thin air. You’re thinking to yourself; _“Is this another Side Quest?”._
