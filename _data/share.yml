@@ -16,22 +16,22 @@ platforms:
 
   # Uncomment below if you need to.
   #
-  # - type: Linkedin
-  #   icon: "fab fa-linkedin"
-  #   link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
+  - type: Linkedin
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/feed/?shareActive=true&shareUrl=URL"
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
   #   link: "https://service.weibo.com/share/share.php?title=TITLE&url=URL"
   #
-  # - type: Mastodon
-  #   icon: "fa-brands fa-mastodon"
-  #   # See: https://github.com/justinribeiro/share-to-mastodon#properties
-  #   instances:
-  #     - label: mastodon.social
-  #       link: "https://mastodon.social/"
-  #     - label: mastodon.online
-  #       link: "https://mastodon.online/"
+  - type: Mastodon
+    icon: "fa-brands fa-mastodon"
+    # See: https://github.com/justinribeiro/share-to-mastodon#properties
+    instances:
+      #     - label: mastodon.social
+      #       link: "https://mastodon.social/"
+      - label: infosec.exchange
+        link: "https://infosec.exchange/"
   #     - label: fosstodon.org
   #       link: "https://fosstodon.org/"
   #     - label: photog.social
