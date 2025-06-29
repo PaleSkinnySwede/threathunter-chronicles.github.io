@@ -3,8 +3,7 @@ title: Welcome To the ThreatHunting Chronicles
 date: 2025-05-26
 description: Field notes from a Cybersecurity Analyst
 categories: [Logwatcher's Zenit]
-tags: [Threat Hunting, Incident Response]
-permalink: /blog/logwatchers-zenit/2025-05-26-threathunter-chronicles.html
+tags: [threat hunting, incident response]
 ---
 
 _Field notes from a Cybersecurity Analyst_

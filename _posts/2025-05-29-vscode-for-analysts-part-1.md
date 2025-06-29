@@ -3,8 +3,7 @@ title: "Logwatcher's Zenit #01: VS Code for Analysts, part 1"
 date: "2025-05-29"
 description: Here's how to let your keyboard to the hunting.
 categories: [Logwatcher's Zenit]
-tags: [cybersecurity, Threat Hunting, Incident Response, Visual Studio Code, Key commands]
-permalink: /blog/logwatchers-zenit/2025-05-29-vscode-for-analysts-part-1.html
+tags: [cybersecurity, threat hunting, incident response, visual studio code, key commands]
 ---
 
 _Here’s how to let your keyboard do the hunting._

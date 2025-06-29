@@ -3,8 +3,7 @@ title: "Logwatcher's Zenit #02: Simulating Attacks with Atomic Red Team"
 date: 2025-06-12
 description: How to Validate Your Detection Logic Without Summoning a Real Threat Actor
 categories: [Logwatcher's Zenit]
-tags: [Threat Hunting, Threat Detection, Log Analysis, Cybersecurity]
-permalink: /blog/logwatchers-zenit/2025-06-12-simulating-attacks-with-atomic-red-team.html
+tags: [threat hunting, threat detection, log analysis, cybersecurity]
 ---
 
 _How to Validate Your Detection Logic Without Summoning a Real Threat Actor_

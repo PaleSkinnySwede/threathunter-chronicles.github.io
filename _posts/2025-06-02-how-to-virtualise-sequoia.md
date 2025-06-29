@@ -3,8 +3,7 @@ title: "SideQuest #01: How To Virtualise Sequoia"
 date: 2025-06-02
 description: Converting Install macOS Sequoia.app to an ISO file
 categories: [Side Quests]
-tags: [macOS Sequoia, Virtualisation, Tips and Tricks, Operating Systems]
-permalink: /blog/sidequest/2025-06-02-how-to-virtualise-sequoia.html
+tags: [macos, macos sequoia, virtualisation, tips and tricks, operating systems]
 ---
 
 _Converting_ `_Install macOS Sequoia.app_` _to an ISO file_
