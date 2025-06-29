@@ -4,13 +4,14 @@ date: 2025-06-05
 description: Force dark theme on launch, kill the evidence, walk away
 categories: [Dirty Bits]
 tags: [dark mode, dark theme, windows sandbox]
+image:
+  path: "/assets/img/blog/2025-06-05-dirty-bit-01/dirty-bit-title-01.png"
+  alt: Dirty Bit 01
 ---
 
 _Force dark theme on launch, kill the evidence, walk away_
 
-![](/assets/img/blog/2025-06-05-dirty-bit-01/ThreatHunter%20Chronicles%20Dirty%20Bit%2001.png)
-
-Questionable methods. Unquestionable results.
+This is filed under: Questionable methods. Unquestionable results.
 
 ## SV;TC (Short Version;Time for Coffee)
 
@@ -25,7 +26,6 @@ I’m a night owl suffering from snow blindness. So I it can’t come as a surpr
 I mean, like this… BRIGHT LIGHT!
 
 ![Bright Light](/assets/img/blog/2025-06-05-dirty-bit-01/bright-screen.gif)
-
 *Sharing is caring.*
 
 Now you know what I’m experiencing when the on-call phone rings in the middle of the night.

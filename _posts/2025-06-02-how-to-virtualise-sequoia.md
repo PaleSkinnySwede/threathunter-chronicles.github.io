@@ -4,6 +4,9 @@ date: 2025-06-02
 description: Converting Install macOS Sequoia.app to an ISO file
 categories: [Side Quests]
 tags: [macos, macos sequoia, virtualisation, tips and tricks, operating systems]
+image:
+  path: "/assets/img/blog/2025-06-02-side-quest-01/side-quest-title-01.png"
+  alt: Side Quest 01
 ---
 
 _Converting_ `_Install macOS Sequoia.app_` _to an ISO file_
@@ -15,8 +18,6 @@ _Some adventures begin with a stray command, a corrupted ISO, or an innocent ‘
 # Let the Side Quest Begin
 
 In this first episode in the _Side Quest_ category, I’m diving into how I managed to install macOS 15 Sequoia in VMware Fusion 13 on my six year old Intel MacBook Pro.
-
-![The Side Quest](/assets/img/blog/2025-06-02-sidequest-01/ThreatHunter%20Chronicles%20SideQuest%2001.png)
 
 Life is full of side quests. Make sure to do them all.
 
@@ -48,8 +49,7 @@ You’re going to need the `sudo` password for the Mac and you’re going to n
 Open the App Store app and search for the OS version you want to download. Click “Get” and then “Download” and it should start downloading. Now, depending on your Internet speed — this is a good time to drink more coffee ☕️. This is a 17GB download.
 
 ![](/assets/img/blog/2025-06-02-sidequest-01/ThreatHunter%20Chronicles%20Download%20macOS%20Sequoia.png)
-
-App Store where you can download macOS Sequoia
+_App Store where you can download macOS Sequoia_
 
 ## Create the ISO
 

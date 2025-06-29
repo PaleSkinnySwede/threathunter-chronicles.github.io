@@ -4,11 +4,12 @@ date: 2025-06-12
 description: How to Validate Your Detection Logic Without Summoning a Real Threat Actor
 categories: [Logwatcher's Zenit]
 tags: [threat hunting, threat detection, log analysis, cybersecurity]
+image:
+  path: "/assets/img/blog/2025-06-12-logwatchers-zenit-02/logwatchers-zenit-title-02.png"
+  alt: Logwatcher's Zenit 02
 ---
 
 _How to Validate Your Detection Logic Without Summoning a Real Threat Actor_
-
-![](/assets/img/blog/2025-06-12-logwatchers-zenit-02/ThreatHunter%20Chronicles%20Logwatchers%20Zenit%2002.png)
 
 > “The map is not the territory. But a map sure helps when you’re lost in a forest of false positives.”
 

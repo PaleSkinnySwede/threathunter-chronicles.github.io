@@ -4,6 +4,9 @@ date: "2025-05-29"
 description: Here's how to let your keyboard to the hunting.
 categories: [Logwatcher's Zenit]
 tags: [cybersecurity, threat hunting, incident response, visual studio code, key commands]
+image:
+  path: "/assets/img/blog/2025-05-29-logwatchers-zenit-01/logwatchers-zenit-title-01.png"
+  alt: Logwatcher's Zenit 01
 ---
 
 _Here’s how to let your keyboard do the hunting._
@@ -17,8 +20,6 @@ Expect practical queries, musings on telemetry, and maybe even a few moments of 
 # VS Code for Analysts, part 1
 
 Before we can start doing any analysis, write [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063) or dive deep into the wonderful world of threat hunting, we need a place to be. This is where [Visual Studio Code](https://code.visualstudio.com/) really shines. It’s my favourite editor and like with everything else — if you learn it well, it’ll help you to stay productive.
-
-![The Logwatcher](/assets/img/blog/2025-05-29-logwatchers-zenit-01/ThreatHunter%20Chronicles%20Logwatchers%20Zenit%2001.png)
 
 # ⏱️ Why Shortcuts Matter in Threat Analysis
 
