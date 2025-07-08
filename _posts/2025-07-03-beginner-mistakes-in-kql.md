@@ -3,7 +3,7 @@ title: "Logwatcher's Zenit #05: Beginner Mistakes in KQL"
 date: 2025-07-03
 description: Finding your inner join in a leftouter world
 categories: [logwatchers-zenit]
-tags: [threat-hunting, threat-detection, incident-response, kql]
+tags: [threat-hunting, threat-detection, log-analysis, incident-response, kql]
 image:
   path: "/assets/img/blog/2025-07-03-logwatchers-zenit-05/logwatchers-zenit-title-05.png"
   alt: Logwatcher's Zenit 05

@@ -2,8 +2,8 @@
 title: "Logwatcher's Zenit #03: Histogram, the Weight Measurement of Logs"
 date: 2025-06-19
 description: Bin it. Chart it. Peek at the peaks.
-categories: [Logwatcher's Zenit]
-tags: [threat hunting, threat detection, log analysis, cybersecurity]
+categories: [logwatchers-zenit]
+tags: [threat-hunting, threat-detection, log-analysis, cybersecurity]
 image:
   path: "/assets/img/blog/2025-06-19-logwatchers-zenit-03/logwatchers-zenit-title-03.png"
   alt: Logwatcher's Zenit 03

@@ -2,8 +2,8 @@
 title: "Logwatcher's Zenit #01: VS Code for Analysts, part 1"
 date: "2025-05-29"
 description: Here's how to let your keyboard to the hunting.
-categories: [Logwatcher's Zenit]
-tags: [cybersecurity, threat hunting, incident response, visual studio code, key commands]
+categories: [logwatchers-zenit]
+tags: [cybersecurity, threat-hunting, incident-response, visualstudio-code, key-commands]
 image:
   path: "/assets/img/blog/2025-05-29-logwatchers-zenit-01/logwatchers-zenit-title-01.png"
   alt: Logwatcher's Zenit 01

@@ -2,8 +2,8 @@
 title: "Dirty Bit #01: Dark Theme in Sandbox"
 date: 2025-06-05
 description: Force dark theme on launch, kill the evidence, walk away
-categories: [Dirty Bits]
-tags: [dark mode, dark theme, windows sandbox]
+categories: [dirty-bits]
+tags: [dark-mode, dark-theme, windows, sandbox]
 image:
   path: "/assets/img/blog/2025-06-05-dirty-bit-01/dirty-bit-title-01.png"
   alt: Dirty Bit 01

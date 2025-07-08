@@ -2,8 +2,8 @@
 title: "Logwatcher's Zenit #04: VS Code for Analysts, part 2"
 date: 2025-06-26
 description: Order in chaos is what separates a good analyst from a great one.
-categories: [Logwatcher's Zenit]
-tags: [threat hunting, threat detection, incident response, visual studio code]
+categories: [logwatchers-zenit]
+tags: [threat-hunting, threat-detection, incident-response, log-analysis, visualstudio-code]
 image:
   path: "/assets/img/blog/2025-06-26-logwatchers-zenit-04/logwatchers-zenit-title-04.png"
   alt: Logwatcher's Zenit 04
