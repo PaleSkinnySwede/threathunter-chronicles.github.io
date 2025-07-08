@@ -1,5 +1,5 @@
 ---
-title: "Beginner Mistakes in KQL"
+title: "Logwatcher's Zenit #05: Beginner Mistakes in KQL"
 date: 2025-07-03
 description: Finding your inner join in a leftouter world
 categories: [logwatchers-zenit]
@@ -38,7 +38,7 @@ The KQL version of grabbing every dish at the buffet. Often used out of habit or
 
 Pick what you need. Let your query breathe.
 
-—--
+---
 
 #### 🌀 2. `summarize` Without Direction
 `SigninLogs | summarize count()`
