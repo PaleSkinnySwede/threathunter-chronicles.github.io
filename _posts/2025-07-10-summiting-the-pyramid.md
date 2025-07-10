@@ -1,7 +1,7 @@
 ---
 title: "Logwatcher's Zenit #06: Summiting the Pyramid"
 date: 2025-07-10
-description: 
+description: MITRE's New Detection Model Explained.
 categories: [Logwatcher's Zenit]
 tags: [threat hunting, threat detection, incident response, mitre attack]
 image:
