@@ -16,4 +16,6 @@ The ThreatHunter Chronicles is my outlet for deep-diving and researching differe
 
 ☕️ I like coffee, if it wasn't obvious.
 
+Graphics on this website has been created using [Midjourney](https://midjourney.com) version 7.
+
 ![David, the Logwatcher](/assets/img/ThreatHunter-Chronicles-David.png)
