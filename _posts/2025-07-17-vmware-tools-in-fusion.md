@@ -2,7 +2,7 @@
 title: "Side Quest #02: VMware Tools in Fusion"
 date: 2025-07-17
 description: Not all installations are equal
-categories: [side-quest]
+categories: [side-quests]
 tags: [virtual-machines, vmware, virtualisation]
 image:
   path: "/assets/img/blog/2025-07-17-side-quest-02/side-quest-title-02.png"
