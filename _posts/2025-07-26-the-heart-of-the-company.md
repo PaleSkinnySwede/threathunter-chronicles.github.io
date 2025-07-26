@@ -13,7 +13,7 @@ image:
 *Some queries are built to detect threats. Others are built to detect existential dread in the event timeline. KQLture Club is where we celebrate the latter. Here, SIEM-ingly useless queries, ironic detections, and overly elegant extend statements mingle in a haze of semi-functional genius. It's part performance art, part security (who am I kidding) telemetry. Think of it as poetry colliding with a parser at light speed. What could possibly go wrong?*
 
 ## Emoji Hunting
-A [colleague](https://hedbergtech.se/) and I was working on an incident tracking down the patient zero, and the initial Teams message that started the whole thing. While digging through the meta information of messages we notices that there was an `ActionType` called `"ReactedToMessage"` . That later became one of this rabbit holes. One of the really fun ones.<br>
+A [colleague](https://hedbergtech.se/) and I was working on an incident tracking down the patient zero, and the initial Teams message that started the whole thing. While digging through the meta information of messages we notices that there was an `ActionType` called `"ReactedToMessage"` . That later became one of these rabbit holes. A really fun one.<br>
 Imagine if you could write a KQL query to see which emojis have been used to react to messages. Wouldn't that say a lot about the company you're working for?
 
 ## Welcome to the KQLture Club…
