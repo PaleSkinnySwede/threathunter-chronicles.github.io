@@ -63,8 +63,8 @@ analytics:
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: ce93bb97-1c97-45e2-a5d2-e12d0f339228 # fill in your Umami ID
+    domain: threathunter-chronicles.com # fill in your Umami domain
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
