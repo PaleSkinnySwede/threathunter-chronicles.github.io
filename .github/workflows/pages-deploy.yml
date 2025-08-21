@@ -32,14 +32,8 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Debug Jekyll Config
-        run: cat _config.yml
-
       - name: Build site with Jekyll
-        run: bundle exec jekyll build --config _config.yml
-
-      - name: Confirm build environment
-        run: echo "JEKYLL_ENV equals $JEKYLL_ENV"
+        run: JEKYLL_ENV=production bundle exec jekyll build --config _config.yml
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
