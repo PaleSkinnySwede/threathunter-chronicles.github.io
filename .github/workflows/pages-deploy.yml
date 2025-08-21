@@ -38,6 +38,9 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build --config _config.yml
 
+      - name: Confirm build environment
+        run: echo "JEKYLL_ENV: $JEKYLL_ENV"
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
