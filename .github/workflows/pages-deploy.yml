@@ -39,7 +39,7 @@ jobs:
         run: bundle exec jekyll build --config _config.yml
 
       - name: Confirm build environment
-        run: echo "JEKYLL_ENV: $JEKYLL_ENV"
+        run: echo "JEKYLL_ENV equals $JEKYLL_ENV"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
