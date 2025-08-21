@@ -59,7 +59,7 @@ Add the following three lines before `</Configuration>` :
 
 Create a new file called `WSBstartup.cmd` in the `HostFolder` folder that you specified in the `.wsb` file and add these two lines:
 
-```shell
+```bash
 C:\Windows\Resources\Themes\dark.theme  
 taskkill /IM systemsettings.exe /F
 ```
