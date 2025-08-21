@@ -9,8 +9,6 @@ image:
   alt: Dirty Bit 01
 ---
 
-_Force dark theme on launch, kill the evidence, walk away_
-
 This is filed under: Questionable methods. Unquestionable results.
 
 ## SV;TC (Short Version;Time for Coffee)
@@ -21,7 +19,7 @@ This is filed under: Questionable methods. Unquestionable results.
 
 The _Dirty Bits_ category celebrates the unsung heroes of quick hacks, undocumented flags, and the kind of logs that smell slightly burnt. Here, we practice questionable methods with unquestionable results. This is the dusty corner of computing where the manuals end and the real fun begins. Don’t panic. BYOP _(Bring Your Own Parsers)_ and `sudo` responsibly.
 
-I’m a night owl suffering from snow blindness. So I it can’t come as a surprise when I tell you that I’m a Dark Mode Advocate trying to eliminate bright screens wherever I can. Imaging getting a phone call in the middle of the night and powering on your 4k monitor to see a white and bright UI. Big no-no.
+I’m a night owl suffering from snow blindness. So it can’t come as a surprise when I tell you that I’m a Dark Mode Advocate trying to eliminate bright screens wherever I can. Imaging getting a phone call in the middle of the night and powering on your 4k monitor to see a white and bright UI. Big no-no.
 
 I mean, like this… BRIGHT LIGHT!
 
@@ -42,7 +40,7 @@ If you’re new to configuring your Sandbox, [Microsoft has a great article abo
 
 For this dark theme hack to work, you need to map a folder from your host system to your Sandbox. You do this by adding the following lines to the `<MappedFolders>` section in your `.wsb` file:
 
-```
+```xml
 <MappedFolder>  
   <HostFolder>C:\Users\ThreatHunterChronicles\Scripts</HostFolder>  
   <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Scripts</SandboxFolder>  
@@ -51,7 +49,7 @@ For this dark theme hack to work, you need to map a folder from your host system
 
 Add the following three lines before `</Configuration>` :
 
-```
+```xml
 <LogonCommand>  
   <Command>C:\Users\WDAGUtilityAccount\Documents\Scripts\WSBstartup.cmd</Command>  
 </LogonCommand>
@@ -61,7 +59,7 @@ Add the following three lines before `</Configuration>` :
 
 Create a new file called `WSBstartup.cmd` in the `HostFolder` folder that you specified in the `.wsb` file and add these two lines:
 
-```
+```shell
 C:\Windows\Resources\Themes\dark.theme  
 taskkill /IM systemsettings.exe /F
 ```
