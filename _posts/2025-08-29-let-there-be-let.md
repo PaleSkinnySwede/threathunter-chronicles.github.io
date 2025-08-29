@@ -14,7 +14,7 @@ image:
 
 
 ## Let's Get Started
-Microsoft has a great (Learn page about Let)[https://learn.microsoft.com/en-us/kusto/query/let-statement?view=microsoft-fabric&wt.mc_id=MVP_387063]. I'm going to walk you through how I'm using `let` to store variables and cache results from sub-queries which I then can use onwards in my queries. When I come across a set of fixed data that I need to use over and over again, like a username, an IP address or a hash, I'm using `let`.
+Microsoft has a great [Learn page about Let](https://learn.microsoft.com/en-us/kusto/query/let-statement?view=microsoft-fabric&wt.mc_id=MVP_387063). I'm going to walk you through how I'm using `let` to store variables and cache results from sub-queries which I then can use onwards in my queries. When I come across a set of fixed data that I need to use over and over again, like a username, an IP address or a hash, I'm using `let`.
 
 ### The Syntax and Special Functions
 `let` Variable `=` `function(`[ Parameters ]`)`
@@ -76,7 +76,7 @@ DeviceNetworkEvents
 
 This example is a bit weird at the first glance. The `SuspiciousProcess` will contain the result from the `DeviceProcessEvents` query which will then be used to query the `DeviceFileEvents` schema where the `DeviceId` is the same. It's a very effective way to enrich your result, or get more info about your presumed *patient zero*.
 
-The special function we're using here, `materialize()`, is particularly great if the query, or sub-query, contains heavy calculations. Then you can store the result from that in a variable using `let` and re-use the result without running the calculation again. Here is more info about (Materialize)[https://learn.microsoft.com/en-us/kusto/query/materialize-function?view=microsoft-fabric&wt.mc_id=MVP_387063] on Microsoft Learn.
+The special function we're using here, `materialize()`, is particularly great if the query, or sub-query, contains heavy calculations. Then you can store the result from that in a variable using `let` and re-use the result without running the calculation again. Here is more info about [Materialize](https://learn.microsoft.com/en-us/kusto/query/materialize-function?view=microsoft-fabric&wt.mc_id=MVP_387063) on Microsoft Learn.
 
 ```kql
 let SuspiciousProcesses = materialize(
