@@ -30,9 +30,9 @@ Here's a quick exmple creating a list, or array:
 ```kql
 let ThreatIPs =
 [
-	"185.203.116.8",
-	"185.225.73.103",
-	"45.9.148.22"
+	"8.130.138.92",
+	"65.49.1.24",
+	"112.86.12.44"
 ];
 DeviceNetworkEvents
 | where RemoteIP in (ThreatIPs)
@@ -47,9 +47,9 @@ But, to make a better use of the data, and structure it so it can be parsed in a
 ```kql
 let ThreatIPs = dynamic(
 [
-	"185.203.116.8",
-	"185.225.73.103",
-	"45.9.148.22"
+	"8.130.138.92",
+	"65.49.1.24",
+	"112.86.12.44"
 ]);
 DeviceNetworkEvents
 | extend ipMatch = array_index_of(ThreatIPs, RemoteIP)
@@ -61,9 +61,9 @@ The above example is fast and efficient, if the list is short. Like, really shor
 ```kql
 let ThreatIPs = datatable(IP:string, Port:string)
 [
-    "185.203.116.8", "80",
-    "45.9.148.22", "8080",
-    "185.225.73.103", "443"
+    "8.130.138.92", "443",
+    "65.49.1.24", "80",
+    "112.86.12.44", "8080"
 ];
 DeviceNetworkEvents
 | join kind=inner (ThreatIPs) on $left.RemoteIP == $right.IP
