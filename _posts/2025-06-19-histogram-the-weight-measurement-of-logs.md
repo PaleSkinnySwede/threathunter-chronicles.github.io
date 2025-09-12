@@ -44,7 +44,7 @@ Another thing to note when mixing Defender XDR and Sentinel data is that Defende
 
 Now we’re ready.
 
-```
+```kql
 DeviceLogonEvents  
 | where Timestamp > ago(1d)  
 | summarize count() by bin(Timestamp, 10m)  
@@ -58,7 +58,7 @@ This shows how many logon events occurred every 10 minutes. Great for spotting b
 
 Attackers love regularity. You know who else does? Histograms.
 
-```
+```kql
 DeviceNetworkEvents  
 | where Timestamp > ago(1d)  
 | where RemoteUrl has "example.com"  
@@ -78,7 +78,7 @@ In 1967, The Tremeloes sang _“Silence is golden”_. But sometimes, silence i
 
 Here’s a _Sentinel only_ KQL query using the _Heartbeat_ table and _TimeGenerated_ instead of Defender XDR’s _Timestamp_.
 
-```
+```kql
 Heartbeat  
 | where TimeGenerated > ago(3d)  
 | summarize count() by bin(TimeGenerated, 1h)  
@@ -95,7 +95,7 @@ Got a host that usually phones home every 5 minutes but suddenly drops off the r
 
 Who said time is the only dimension? Let’s bucket by another field:
 
-```
+```kql
 DeviceEvents  
 | where Timestamp > ago(1h)  
 | summarize count() by bin(Timestamp, 5m), ActionType  
@@ -118,7 +118,7 @@ Sure, you _can_ bin at one-second intervals. But unless you’re hunting natio
 
 This query will only work in Sentinel since we’ll utilise the `Heartbeat` table again.
 
-```
+```kql
 let SuspiciousHosts =   
     DeviceNetworkEvents  
     | where RemoteUrl endswith ".xyz"  
