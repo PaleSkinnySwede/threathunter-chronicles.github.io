@@ -29,9 +29,9 @@ Just you, your telemetry, and a library of small, well-documented threats that e
 ---
 # 🧪 What Is Atomic Red Team?
 
-[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) is an open-source project by [Red Canary](https://redcanary.com/), designed to test your detection coverage against real-world adversary techniques. Each “atomic” test maps to a specific [MITRE ATT&CK](https://attack.mitre.org/) technique and does one thing — but does it well.
+[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) is an open-source project by [Red Canary](https://redcanary.com/), designed to test your detection coverage against real-world adversary techniques. Each “atomic” test maps to a specific [MITRE ATT&CK](https://attack.mitre.org/) technique and does one thing but does it really well.
 
-These aren’t complex attack chains. They’re simple actions like creating a scheduled task, spawning a suspicious PowerShell command, or dropping an encoded payload to disk. Think of them as lab rats in your SIEM maze: small, twitchy, and incredibly useful for understanding how your environment reacts to malicious behaviour.
+They’re simple actions like creating a scheduled task, spawning a suspicious PowerShell command, or dropping an encoded payload to disk. Think of them as lab rats in your SIEM maze: small, twitchy, and incredibly useful for understanding how your environment reacts to malicious behaviour.
 
 ---
 # Why You Should Care
@@ -67,15 +67,21 @@ Recommended on Windows machines, but works just fine on macOS too if you first i
 - Open PowerShell as admin
 - Run:
 
+```powershell
 Install-Module -Name Invoke-AtomicRedTeam -Force
+```
 
 - Initialize the tests:
 
+```powershell
 Invoke-AtomicTest T1059.001 -ShowDetails
+```
 
 - Run a test:
 
+```powershell
 Invoke-AtomicTest T1059.001 -TestNumbers 1
+```
 
 This method automatically pulls in dependencies, runs tests cleanly, and logs beautifully — perfect for pairing with Sysmon, Defender, or Sentinel ingestion.
 
@@ -90,11 +96,15 @@ Let’s say you want to test **PowerShell Execution** (T1059.001).
 
 - Search for available tests:
 
-`Search-AtomicTests T1059.001`
+```powershell
+Search-AtomicTests T1059.001
+```
 
 - Review the test with:
 
-`Invoke-AtomicTest T1059.001 -TestNumbers 1 -ShowDetails`
+```powershell
+Invoke-AtomicTest T1059.001 -TestNumbers 1 -ShowDetails
+```
 
 - Then fire it off and watch your logs come alive.
 
@@ -122,7 +132,7 @@ Depending on your logging setup, the test will generate telemetry like:
 
 This is where things get real.
 
-You ran the test — now hunt it like it’s a true adversary:
+You ran the test. Now hunt it like it’s a true adversary:
 
 - Use KQL to find the process tree
 - Follow command lines, parent/child relationships, or network calls
@@ -133,18 +143,18 @@ The last bullet is the most important question in detection engineering, apart f
 
 Here’s a _super simple_ example to find PowerShell executions:
 
-```
+```kql
 DeviceProcessEvents  
 | where FileName =~ "powershell.exe"  
 | where ProcessCommandLine has_any ("-EncodedCommand", "Invoke-Expression", "IEX")
 ```
 
-Want to up the difficulty? Hide the test name from yourself. Pretend it’s real. And chase it through your logs like it matters — because that’s how you train your instincts. Or ask a colleague to fire off a few different tests without telling you which they are. Fun time ahead!
+Want to up the difficulty? Hide the test name from yourself. Pretend it’s real. And chase it through your logs like it matters, because that’s how you train your instincts. Or ask a colleague to fire off a few different tests without telling you which they are. Fun times ahead!
 
 ---
 # 🔁 Making It Repeatable
 
-Want to run tests on a schedule? Tie them into a CI/CD pipeline? Feed results into a coverage dashboard?
+Want to run tests on a schedule? Tie them into a CI/CD pipeline? Feed the results into a coverage dashboard?
 
 You absolutely can.
 
@@ -157,7 +167,7 @@ This turns simulation from an _event_ into a _practice_.
 ---
 # ⚠️ Limitations and Caveats
 
-Let’s be clear though. While the Atomic Red Team is a good way of testing individual detections, or surprise a colleague with a weird alert when they least expect it, we still have to consider a few things:
+Let’s be clear though. While the Atomic Red Team is a good way of testing individual detections or surprise a colleague with a weird alert when they least expect it, we still have to consider a few things:
 
 - These are **simulations**, not real attacks
 - They often don’t bypass EDRs or chain with lateral movement
@@ -166,7 +176,7 @@ Let’s be clear though. While the Atomic Red Team is a good way of testing indi
 
 Like a friend use to say: _“Every company has a test environment. At some companies it’s different from the production environment.”_
 
-Think of ART like a crash test dummy: it’s not trying to fool the car — it’s helping you build the seatbelt and airbags.
+Think of ART like a crash test dummy: it’s not trying to fool the car, but it’s helping you build the seatbelt and airbags.
 
 ---
 # 🧘 Closing Thoughts
@@ -176,7 +186,7 @@ Running an Atomic Red Team test is like striking a bell in your environment and 
 Detection is not about having the perfect rule.  
 It’s about knowing what _should_ happen — so you can spot when it doesn’t.
 
-And in that space, between signal and silence, between test and telemetry, lives the Logwatcher. Quiet. Focused. Aware. Drinking coffee.
+And in that space, between signal and silence, between test and telemetry, lives the Logwatcher. Quiet. Focused. Aware. Squinting at timelines. Drinking coffee.
 
 ---
 # 📎 Quick Links
