@@ -16,7 +16,7 @@ The latest initiative from MITRE’s CTID, *“Summiting the Pyramid”*, invite
 
 #### Background
 
-A colleague of mine came back from the [37th annual FIRST](https://www.first.org/conference/2025/), this year in Copenhagen, Denmark. FIRST is *Forum of Incident Response and Security Teams* -- a conference where that brings together computer security incident response teams (CSIRTs) from government, commercial, and educational sectors. If you've never visited any of these conferences you should definitely go. I can't recommend it well enough.
+A colleague of mine came back from the [37th annual FIRST](https://www.first.org/conference/2025/), this year in Copenhagen, Denmark. FIRST is *Forum of Incident Response and Security Teams* - a conference where that brings together computer security incident response teams (CSIRTs) from government, commercial, and educational sectors. If you've never visited any of these conferences you should definitely go. I can't recommend it well enough.
 
 One of the sessions was about [MITRE CTID](https://ctid.mitre.org/)'s new model; *"Summiting the Pyramid"*. According to him, it was the best session too. This really piqued my interest so I've done some reading and digging. By the way, CTID stand for *"Center for Threat-Informed Defense"* (with American spelling, my remark).
 
