@@ -11,10 +11,10 @@ image:
 
 This is filed under: Questionable methods. Unquestionable results.
 
-## SV;TC (Short Version;Time for Coffee)
+## SV;MTC (Short Version;More Time for Coffee)
 
-1. Edit your `.wsb` file and map a folder and add a command  
-2. Create a `.cmd` file with the dark theme command  
+1. Edit your `.wsb` file and map a folder and add a command
+2. Create a `.cmd` file with the dark theme command
 3. Done
 
 The _Dirty Bits_ category celebrates the unsung heroes of quick hacks, undocumented flags, and the kind of logs that smell slightly burnt. Here, we practice questionable methods with unquestionable results. This is the dusty corner of computing where the manuals end and the real fun begins. Don’t panic. BYOP _(Bring Your Own Parsers)_ and `sudo` responsibly.
