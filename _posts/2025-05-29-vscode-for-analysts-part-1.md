@@ -49,7 +49,7 @@ Here’s a list of key commands and combinations that make a real difference whe
 `Cmd + Shift + O` / `Ctrl + Shift + O` Jump to a function, query block, or section header.
 
 **Go to definition**  
-`F12   `Peek or jump to a function/variable definition — useful when parsing Python threat tooling or custom PowerShell modules.
+`F12` Peek or jump to a function/variable definition — useful when parsing Python threat tooling or custom PowerShell modules.
 
 ---
 # Multi-File Intelligence
