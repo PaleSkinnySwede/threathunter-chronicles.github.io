@@ -13,19 +13,19 @@ _Here’s how to let your keyboard do the hunting._
 
 ## Introduction
 
-At the summit of signal and noise lies the _Logwatcher’s Zenit_ — a quiet place for analysts who squint at timestamps and whisper to correlation engines. This category explores log analysis, data parsing, and threat hunting with a touch of [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063), a dash of [XDR](https://www.microsoft.com/sv-se/security/business/siem-and-xdr/microsoft-defender-xdr/?wt.mc_id=MVP_387063), and the occasional existential crisis about why that one alert keeps firing every Friday afternoon 5 minutes before you’re about to clock out.
+At the summit of signal and noise lies the _Logwatcher’s Zenit_. It's a quiet place for analysts who squint at timestamps and whisper to correlation engines. This category explores log analysis, data parsing, and threat hunting with a touch of [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063), a dash of [XDR](https://www.microsoft.com/sv-se/security/business/siem-and-xdr/microsoft-defender-xdr/?wt.mc_id=MVP_387063), and the occasional existential crisis about why that one alert keeps firing every Friday afternoon 5 minutes before you’re about to clock out.
 
 Expect practical queries, musings on telemetry, and maybe even a few moments of enlightenment between the joins and the let-statements. Bring your coffee. Leave your assumptions at home and come alone.
 
 # VS Code for Analysts, part 1
 
-Before we can start doing any analysis, write [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063) or dive deep into the wonderful world of threat hunting, we need a place to be. This is where [Visual Studio Code](https://code.visualstudio.com/) really shines. It’s my favourite editor and like with everything else — if you learn it well, it’ll help you to stay productive.
+Before we can start doing any analysis, write [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063) or dive deep into the wonderful world of threat hunting, we need a place to be. This is where [Visual Studio Code](https://code.visualstudio.com/) really shines. It’s my favourite editor and like with everything else; if you learn it well, it’ll help you to stay productive.
 
 # ⏱️ Why Shortcuts Matter in Threat Analysis
 
 _When milliseconds matter, keystrokes win._
 
-Threat hunting and log analysis often require you to bounce between files, tweak queries, and inspect large data sets quickly. Every time your hand leaves the keyboard to touch the mouse, you lose momentum — and in our line of work, flow is everything.
+Threat hunting and log analysis often require you to bounce between files, tweak queries, and inspect large data sets quickly. Every time your hand leaves the keyboard to touch the mouse, you lose momentum and in our line of work, flow is everything.
 
 Imagine if you could move a couple of lines up or down, select some lines and sort them, all without letting your fingers leave the keyboard. Well, you can! [VS Code](https://code.visualstudio.com/) is a powerhouse for log analysis, scripting, and threat hunting — but only if you know how to wield it like a true professional. In this post I’ll give you the shortcut keys that I use the most and almost are willing to call “life-savers”.
 

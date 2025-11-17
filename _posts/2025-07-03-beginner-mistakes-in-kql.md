@@ -11,10 +11,10 @@ image:
 
 *Finding your inner join in a leftouter world.*
 
-#### Introduction
-At the summit of signal and noise lies the Logwatcher’s Zenit — a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home, and why come alone?
+## Introduction
+At the summit of signal and noise lies the Logwatcher’s Zenit, a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home, and why come alone?
 
-#### The Fog of Query
+## The Fog of Query
 Somewhere between your fifth cup of coffee and the fourth attempt at making `summarize` do something useful, it hits you: **KQL is deceptively simple**. You write a few lines, get some rows back, and suddenly you’re riding high on the wave of insight.
 
 Until… it breaks.
@@ -27,14 +27,14 @@ Fear not, fellow signal-seeker. Every hunter has tripped on these same twigs in 
 
 ---
 
-#### 🪞 1. Projecting Too Much (Or Too Little)
+## 🪞 1. Projecting Too Much (Or Too Little)
 
 ```kql
 DeviceLogonEvents
 | project *
 ```
 
-The KQL version of grabbing every dish at the buffet. Often used out of habit or panic. And while it seems harmless, `project *` brings in every column — including long dynamic fields — which can clutter your results, ruin visuals, and make you miss the important bits.
+The KQL version of grabbing every dish at the buffet. Often used out of habit or panic. And while it seems harmless, `project *` brings in every column, including long dynamic fields, which can clutter your results, ruin visuals, and make you miss the important bits.
 
 ✅ Do This Instead:
 
@@ -47,14 +47,14 @@ Pick what you need. Let your query breathe and add them in an order that actuall
 
 ---
 
-#### 🌀 2. `summarize` Without Direction
+## 🌀 2. `summarize` Without Direction
 
 ```kql
 SigninLogs
 | summarize count()
 ```
 
-It returns a single row. Powerful… but mostly meaningless. Summarize is only interesting with context — what are you grouping by? What are you counting?
+It returns a single row. Powerful… but mostly meaningless. Summarize is only interesting with context, what are you grouping by? What are you counting?
 
 ✅ Use `summarize` With Purpose:
 
@@ -68,7 +68,7 @@ Add a `bin()` . Add dimensions. Add clarity. Don’t just count. I talked about 
 
 ---
 
-#### 🕰️ 3. Forgetting Time Exists
+## 🕰️ 3. Forgetting Time Exists
 
 ```kql
 Heartbeat
@@ -89,7 +89,7 @@ Time is not just a column. It’s the backbone of every hunt.
 
 ---
 
-#### 🔍 4. Using == for Everything
+## 🔍 4. Using == for Everything
 ```kql
 DeviceNetworkEvents
 | where RemoteUrl == "threathunter-chronicles"
@@ -108,7 +108,7 @@ Use `has`, `contains`, or even `matches regex` when dealing with noisy, unstruct
 
 ---
 
-#### 📦 5. Ignoring Dynamic Data
+## 📦 5. Ignoring Dynamic Data
 
 ```kql
 AzureDiagnostics
@@ -129,7 +129,7 @@ Dynamic fields are like onions. You’ve got to peel them.
 
 ---
 
-#### 🧩 6. Joining Without Guardrails
+## 🧩 6. Joining Without Guardrails
 
 ```kql
 DeviceLogonEvents
@@ -153,7 +153,7 @@ Think about cardinality. Are you joining 1:1 or 1:many? Use `kind=leftouter` to 
 
 ---
 
-#### 🧠 7. Thinking It’s Just SQL
+## 🧠 7. Thinking It’s Just SQL
 `SELECT * FROM SecurityEvent WHERE EventID = 4625;`
 
 Nope.
@@ -162,10 +162,10 @@ KQL isn’t SQL. It’s built for log streams, not relational databases. Learn t
 
 ---
 
-#### 🎓 Final Thoughts from the Zenit
+## 🎓 Final Thoughts from the Zenit
 Every query is a meditation.
 
-It teaches you not just about the data, but about *how you think*. KQL invites curiosity, iteration, and — when the results are just right — a small flicker of joy.
+It teaches you not just about the data, but about *how you think*. KQL invites curiosity, iteration, and when the results are just right, a small flicker of joy.
 
 You’ll mess up joins. You’ll overproject. You’ll forget `bin()`. We all do. Trust me. But you’ll learn.
 
@@ -183,7 +183,7 @@ SecurityEvent
 | where Account != ""
 ```
 
-Drop your fix in the comments — and tell me why.
+Drop your fix in the comments and tell me why.
 
 ---
 

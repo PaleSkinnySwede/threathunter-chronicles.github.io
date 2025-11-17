@@ -13,17 +13,17 @@ _Bin it. Chart it. Peek at the peaks._
 
 ![](/assets/img/blog/2025-06-19-logwatchers-zenit-03/ThreatHunter%20Chronicles%20Logwatchers%20Zenit%2003.png)
 
-_At the summit of signal and noise lies the Logwatcher’s Zenit — a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home, and fire up your favourite log parser._
+_At the summit of signal and noise lies the Logwatcher’s Zenit, a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home, and fire up your favourite log parser._
 
 ## Introduction
 
-Histograms — the underrated champions of shape and structure — can tip the scales of any investigation. While your data might weigh in at petabytes, it’s these humble bins that are _David_ when you’re wrestling logs the size of _Goliath_.
+Histograms, the underrated champions of shape and structure. It can really tip the scales of any investigation. While your data might weigh in at petabytes, it’s these humble bins that are _David_ when you’re wrestling logs the size of _Goliath_.
 
 In this post, we explore how histograms in [KQL](https://learn.microsoft.com/en-us/kusto/query/?view=microsoft-fabric&wt.mc_id=MVP_387063) (and beyond) help analysts reveal periodicity, detect anomalies, and catch that beaconing malware that always checks in at _exactly_ 10-minute intervals like it’s punching a cursed time clock or just being an insanely slow drum machine someone forgot to sync, or turn off.
 
 ## What _Is_ a Histogram?
 
-A histogram isn’t just a bar chart — it’s a story. A tale of counts over time. A saga of spikes, and silence. When you bin data over time intervals, you begin to see the rhythm of your logs: the heartbeat of systems, the subtle pulse of attackers, the glaring gaps when something suddenly… stops.
+A histogram isn’t just a bar chart, it’s a story. A tale of counts over time. A saga of spikes, and silence. When you bin data over time intervals, you begin to see the rhythm of your logs: the heartbeat of systems, the subtle pulse of attackers, the glaring gaps when something suddenly… stops.
 
 Think of it this way: if raw logs are atoms, then a histogram is the periodic table.
 
@@ -137,6 +137,6 @@ A histogram is more than just a tool — it’s a lens. One that lets you step b
 
 It won’t solve the case for you. But it’ll show you where the rhythm breaks, where anomalies bloom, and where your attention should wander.
 
-So next time you’re staring at raw logs and feeling like you’re drowning in entropy — bin it. Chart it. Read between the bars or under the lines. Maybe your math teacher was right after all? The area under the curve could perhaps tell a store and be that _Integral_ part of your investigation.
+So next time you’re staring at raw logs and feeling like you’re drowning in entropy: bin it! Chart it! Read between the bars or under the lines. Maybe your math teacher was right after all? The area under the curve could perhaps tell a store and be that _Integral_ part of your investigation.
 
 Because in the end, histograms could actually be heavier than kilograms.

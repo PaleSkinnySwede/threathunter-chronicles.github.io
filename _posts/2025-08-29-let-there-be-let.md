@@ -9,14 +9,14 @@ image:
   alt: Logwatcher's Zenit 07
 ---
 
-#### Introduction
+## Introduction
 *At the summit of KQL mastery lies a deceptively humble keyword: `let`. Whispered by seasoned threat hunters and war-scarred incident responders alike, it’s not just a macro tool—it’s a language of intention. Let me show you how. But first, coffee.*
 
 
 ## Let's Get Started
 Microsoft has a great [Learn page about Let](https://learn.microsoft.com/en-us/kusto/query/let-statement?view=microsoft-fabric&wt.mc_id=MVP_387063). I'm going to walk you through how I'm using `let` to store variables and cache results from sub-queries which I then can use onwards in my queries. When I come across a set of fixed data that I need to use over and over again, like a username, an IP address or a hash, I'm using `let`.
 
-### The Syntax and Special Functions
+## The Syntax and Special Functions
 `let` Variable `=` `function(`[ Parameters ]`)`
 
 The syntax is quite easy. It's (obviously) the word `let` followed by a variable name that you get to choose yourself. After the variable name comes the `=` and then a function; like `datatable()`, `dynamic()` or `materialize()`. Then you have a the body of the function.

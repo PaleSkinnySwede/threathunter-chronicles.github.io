@@ -46,7 +46,7 @@ You’re going to need the `sudo` password for the Mac and you’re going to n
 
 ## Download macOS Sequoia
 
-Open the App Store app and search for the OS version you want to download. Click “Get” and then “Download” and it should start downloading. Now, depending on your Internet speed — this is a good time to drink more coffee ☕️. This is a 17GB download.
+Open the App Store app and search for the OS version you want to download. Click “Get” and then “Download” and it should start downloading. Now, depending on your Internet speed, this is a good time to drink more coffee ☕️. This is a 17GB download.
 
 ![](/assets/img/blog/2025-06-02-sidequest-01/ThreatHunter%20Chronicles%20Download%20macOS%20Sequoia.png)
 _App Store where you can download macOS Sequoia_
@@ -64,7 +64,7 @@ The first step is to create a volume which we can write the installation files t
 
 `hdiutil create -o /tmp/sequoia -size 20480m -volname Sequoia -layout SPUD -fs HFS+J`
 
-This will create a 20GB volume named “Sequoia” with the journaling version of HFS, unless you roll a 2 in the _Random Encounter_ — then the file will be 2GB. Make sure you type `20480m` .
+This will create a 20GB volume named “Sequoia” with the journaling version of HFS, unless you roll a 2 in the _Random Encounter_, then the file will be 2GB. Make sure you type `20480m`.
 
 When done, it’s time to mount it to the file system. Still in the Terminal, type this:
 
@@ -84,7 +84,7 @@ And now, let’s make an ISO file. First, convert it to a CDR file using `hdiut
 
 The Desktop is the perfect download folder. Trust me on this one. It’s the place where a lot of sane people are actually saving their files.
 
-> Apple’s command-line tools are like jazz musicians — they _almost_ follow the rules, but then throw in a surprise extension just to keep you on your toes.
+> Apple’s command-line tools are like jazz musicians, they _almost_ follow the rules, but then throw in a surprise extension just to keep you on your toes.
 
 The `hdiutil` is one of those tools that suffer a bit from _Apple-ism_ and it will hard code `.cdr`as the file extension. If you tried to name the file `Sequoia.iso` in the command above, it will now be called `Sequoia.iso.cdr`. Let’s change the filename from `.cdr` to `.iso` by typing the following:
 

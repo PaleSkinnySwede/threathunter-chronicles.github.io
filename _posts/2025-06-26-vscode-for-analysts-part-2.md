@@ -11,17 +11,17 @@ image:
 
 _Order in chaos is what separates a great analyst from a good one._
 
-#### Introduction
+## Introduction
 
-_At the summit of signal and noise lies the Logwatcher’s Zenit — a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home and make sure your wireless mouse and keyboard are fully charged._
+_At the summit of signal and noise lies the Logwatcher’s Zenit, a quiet place for analysts who squint at timestamps and whisper to correlation engines. Bring your coffee, leave your assumptions at home and make sure your wireless mouse and keyboard are fully charged._
 
-#### Let’s Go
+## Let’s Go
 
 In [the first part](https://threathunter-chronicles.com/blog/logwatchers-zenit/2025-05-29-vscode-for-analysts-part-1.html), we looked at my favourite key commands making Visual Studio Code one of my favourite tools when analysing and dissecting malicious scripts so I can build detections and threat hunting rules.
 
 Today, in part 2, we descend from the peak to wander the plugin bazaar of Visual Studio Code. Not all tools are built for us, but some? Some are forged in the fires of parsing and anomaly hunting.
 
-Here are the extensions I keep close, like a hunter’s blade and a bard’s flask — each one tuned for threat hunters, log sculptors, and cyber-detectives.
+Here are the extensions I keep close, like a hunter’s blade and a bard’s flask, each one tuned for threat hunters, log sculptors, and cyber detectives.
 
 ---
 
@@ -45,7 +45,7 @@ This one’s non-negotiable. If you live in the world of Microsoft Sentinel, Def
 
 _Publisher: mechatroner_
 
-When logs masquerade as CSVs but feel more like crossword puzzles, **Rainbow CSV** is your savior. This extension colorizes each column in `.csv`, `.tsv`, and `.psv` files using a distinct hue — instantly improving readability and reducing parsing-induced rage.
+When logs masquerade as CSVs but feel more like crossword puzzles, **Rainbow CSV** is your savior. This extension colorizes each column in `.csv`, `.tsv`, and `.psv` files using a distinct hue, instantly improving readability and reducing parsing-induced rage.
 
 Why it belongs in every analyst’s kit:
 
@@ -54,7 +54,7 @@ Why it belongs in every analyst’s kit:
 - Detects broken CSV lines (looking at you, rogue newline in column 12).
 - Bonus: SQL-like query engine for quick local searches.
 
-If you deal with exports from Sysmon, Microsoft Graph, or that One Weird Excel File™ your customer insists is “log format” — this one’s a no-brainer.
+If you deal with exports from Sysmon, Microsoft Graph, or that One Weird Excel File™ your customer insists is a “log format”. Then this one’s a no-brainer.
 
 👉 [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
@@ -69,7 +69,7 @@ Your future self will thank you. This plugin color-codes your comments so you ca
 - `// NOTE:` (blue)
 - `// COMMENT:` (grey)
 
-This is especially great for multi-phase detection building — mark where your query needs refining or where you’re unsure about data interpretation.
+This is especially great for multi-phase detection building, mark where your query needs refining or where you’re unsure about data interpretation.
 
 👉 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
@@ -97,7 +97,7 @@ If your analysis style is part detective, part squirrel — this is for you.
 
 _Publisher: Christian Kohler_
 
-If your investigation involves navigating directory structures in PowerShell scripts, shell commands, or code analysis — this extension auto-completes file paths in your scripts and queries.
+If your investigation involves navigating directory structures in PowerShell scripts, shell commands, or code analysis, this extension auto-completes file paths in your scripts and queries.
 
 It’s a humble but powerful time-saver.
 
@@ -107,7 +107,7 @@ It’s a humble but powerful time-saver.
 
 _Publisher: GrapeCity_
 
-Security analysts work in spreadsheets whether we like it or not. This extension lets you open `.xlsx` files directly inside VS Code — no need to summon Excel from the depths of Office bloatware.
+Security analysts work in spreadsheets whether we like it or not. This extension lets you open `.xlsx` files directly inside VS Code, no need to summon Excel from the depths of the Office folders.
 
 Perfect for:
 
@@ -127,13 +127,13 @@ For the analyst who speaks JSON to APIs, who runs prompt-driven pseudomagic, and
 
 _Publisher: GitHub Copilot Labs or extensions like_ `_ChatGPT - CodeGPT_`
 
-Use with caution and a dash of curiosity. AI in your IDE is like a drunk oracle — surprisingly wise but occasionally hallucinatory. Still, ChatGPT plugins in VS Code are excellent for:
+Use with caution and a dash of curiosity. AI in your IDE is like a drunk oracle, surprisingly wise but occasionally hallucinatory. Still, ChatGPT plugins in VS Code are excellent for:
 
 - Explaining obfuscated code (yes, even that Powershell base64 blob).
 - Generating regex so you don’t have to summon it from memory.
 - Writing detections in natural language _before_ translating them into KQL.
 
-Just don’t let it write your detections unattended — it doesn’t have to defend the SOC at 2am.
+Just don’t let it write your detections unattended, it doesn’t have to defend the SOC at 2am.
 
 ### 🔄 8. REST Client
 
@@ -159,7 +159,7 @@ No need to open Postman. You are Postman now. Go deliver!
 
 ### 🧘 Final Thoughts
 
-VS Code is more than just an editor — it’s a dojo for your detection kata, a crypt for old scripts, and a cockpit for logflight. But like any good tool, it’s only as powerful as the hands that wield it. So make sure you use it a lot and practice those key commands too.
+VS Code is more than just an editor, it’s a dojo for your detection kata, a crypt for old scripts, and a cockpit for logflight. But like any good tool, it’s only as powerful as the hands that wield it. So make sure you use it a lot and practice those key commands too.
 
 With these extensions, you’re not just reading logs. You’re navigating them like a pilot with radar, sonar, and a few ESP plugins on the side.
 

@@ -28,7 +28,7 @@ I mean, like this… BRIGHT LIGHT!
 
 Now you know what I’m experiencing when the on-call phone rings in the middle of the night.
 
-One thing that bugged me was that the [Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/?wt.mc_id=MVP_387063) in [Windows 11](https://www.microsoft.com/en-us/windows/windows-11/?wt.mc_id=MVP_387063) always starts with the awfully bright theme as default. It doesn’t matter what your host operating system is set to — the Sandbox is always white, because Microsoft has decided that for you.
+One thing that bugged me was that the [Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/?wt.mc_id=MVP_387063) in [Windows 11](https://www.microsoft.com/en-us/windows/windows-11/?wt.mc_id=MVP_387063) always starts with the awfully bright theme as default. It doesn’t matter what your host operating system is set to. The Sandbox is always white, because Microsoft has decided that for you.
 
 But, look no further because here’s my neat little trick that solves it for you.
 

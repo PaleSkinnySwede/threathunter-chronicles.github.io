@@ -39,7 +39,7 @@ CloudAppEvents
 Should your result contain something like `;0-csea-d8-` followed by a suspiciously long string of HEX characters (32, to be precise, because chaos still has rules of course), then you, dear KQLture Club member, have encountered a user-uploaded emoji and depending on how much free time your colleagues might have, there can be quite a lot of them after a while. The bit before the semicolon? That's the emoji's chosen name by the uploader. Perhaps something like `this-is-fine-fire;0-csea-d8-...`. Why are they named like this? Well, who besides us are reading these logs anyway? 🤷🏼‍♂️🤷🏼‍♀️
 
 ## 🔎 Emoji Detections
-Why not turn this query into a full blown *Custom Detection* and surprise your SOC colleagues with an alert every time a certain emoji is being used? Use your imagination and be creative but don't drain your colleagues by creating EAF; * Emoji Alert Fatigue*.
+Why not turn this query into a full blown *Custom Detection* and surprise your SOC colleagues with an alert every time a certain emoji is being used? Use your imagination and be creative but don't drain your colleagues by creating EAF; *Emoji Alert Fatigue*.
 
 ## 🧘🏼‍♂️ Closing Notes
 You can draw your own conclusions on what type of company you're working for based on the most used emoji. Remember that you can only look 30 days back unless you've shipped the log to a storage with a longer retention time. This could be your legacy, though. Storing logs full of emojis on old fashioned physical disks (ask your parents) and put them in a long forgotten cellar for future generations to find.

@@ -43,7 +43,7 @@ There are many reasons to run simulations like this:
 - 🧠 Train analysts to interpret subtle signals
 - 🔄 Catch regressions after content or config changes
 
-And let’s be honest — sometimes it’s just fun to throw a known rock into the pond and watch the ripples.
+And let’s be honest, sometimes it’s just fun to throw a known rock into the pond and watch the ripples.
 
 ---
 # ⚙️ Setting It Up
@@ -83,7 +83,7 @@ Invoke-AtomicTest T1059.001 -ShowDetails
 Invoke-AtomicTest T1059.001 -TestNumbers 1
 ```
 
-This method automatically pulls in dependencies, runs tests cleanly, and logs beautifully — perfect for pairing with Sysmon, Defender, or Sentinel ingestion.
+This method automatically pulls in dependencies, runs tests cleanly, and logs beautifully, perfect for pairing with Sysmon, Defender, or Sentinel ingestion.
 
 # Option 3: Atomic-Operator (Cross-Platform CLI)
 
@@ -125,7 +125,7 @@ Depending on your logging setup, the test will generate telemetry like:
 - **Microsoft Defender** detections
 - **DeviceProcessEvents** in Microsoft Sentinel
 
-☕️ Keep your KQL handy. Watch your logs in tail mode. And yes — **have coffee ready**. Detection is as much patience as it is parsing. And drinking coffee.
+☕️ Keep your KQL handy. Watch your logs in tail mode. And yes, **have coffee ready**. Detection is as much patience as it is parsing. And drinking coffee.
 
 ---
 # 🧠 Hunting the Simulated Threat

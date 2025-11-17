@@ -15,7 +15,7 @@ This blog post is about getting VMware Tools to work on an **_Intel_** Mac with 
 
 ## Introduction
 
-_Some adventures begin with a stray command, a corrupted ISO, or an innocent ‘what if?’ at 2AM. SideQuests is where we document the unsolicited technical revelations that make life worth scripting. No support tickets in sight. These are the footnotes of your digital epic — the ones more enlightening than the main plot. Loot optional, no XP guaranteed._
+_Some adventures begin with a stray command, a corrupted ISO, or an innocent ‘what if?’ at 2AM. SideQuests is where we document the unsolicited technical revelations that make life worth scripting. No support tickets in sight. These are the footnotes of your digital epic, the ones more enlightening than the main plot. Loot optional, no XP guaranteed._
 
 ## Side Quest
 
